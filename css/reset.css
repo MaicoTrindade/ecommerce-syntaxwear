@@ -1,0 +1,117 @@
+/* Reset CSS - Baseado no reset de Andy Bell */
+
+/* Remove a margem padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Herda o box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remove espaços de linha padrão */
+body {
+  line-height: 1.5;
+}
+
+/* Remove espaçamento padrão de headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+  overflow-wrap: break-word;
+}
+
+/* Remove espaçamento de parágrafos */
+p {
+  overflow-wrap: break-word;
+}
+
+/* Remove estilização padrão de listas */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Reset de links */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Reset de formulários */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* Reset de imagens */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Evita espaços em branco de imagens */
+img,
+picture {
+  display: block;
+}
+
+/* Remove texto padrão de inputs de busca */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+/* Remove espaçamento padrão de blockquotes */
+blockquote,
+figure,
+pre {
+  margin: 0;
+}
+
+/* Remove borders padrão de tabs */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* Melhora legibilidade de texto selecionado */
+::selection {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: inherit;
+}
