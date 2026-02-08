@@ -1,4 +1,6 @@
 /* base.css */
 body {
   font-family: var(--fonte-principal);
+  background-color: #ffffff /* Cor de fundo branca para o site */;
+  color: #333333 /* Cor de texto escura para melhor legibilidade */;
 }
