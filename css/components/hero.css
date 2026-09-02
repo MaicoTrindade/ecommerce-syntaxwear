@@ -23,8 +23,8 @@
 }
 
 .hero-buttons{
-display:flex;
-gap: 16px;
+    display: flex;
+    gap: 1rem;
 }
 
 .hero-content .hero-title {
