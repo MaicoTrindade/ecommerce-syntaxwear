@@ -3,7 +3,7 @@
   position: fixed;
   top: 60px;
   left: 50%;
-  transform: translate(-50%);
+  transform: translateX(-50%);
   width: 1260px;
   border-radius: 15px;
   z-index: 999;
@@ -11,7 +11,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0.225rem 1.25rem;
-  background-color: #ffffff
+  background-color: #ffffff;
 }
 
 .logo img {
@@ -80,6 +80,14 @@
 @media (max-width: 1280px) {
   .header {
     width: calc(100% - 40px);
+  }
+
+  .logo img {
+    height: 40px;
+  }
+
+  .nav-center a, .nav-right a {
+    font-size: 1rem;
   }
 
   .nav-container {
