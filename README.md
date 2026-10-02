@@ -137,5 +137,3 @@ O design foi ajustado para se adaptar perfeitamente a diferentes tamanhos de tel
 Este projeto foi desenvolvido para fins educacionais e de estudo. Sinta-se à vontade para utilizá-lo como referência ou base para seus próprios projetos de portfólio!
 
 ---
-
-Desenvolvido com 💜 durante os estudos no **DevQuest 2.0**.
